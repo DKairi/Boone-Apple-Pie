@@ -16,6 +16,7 @@
 		1800B49F29D07BF4008B37E1 /* Boone_Apple_PieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800B49E29D07BF4008B37E1 /* Boone_Apple_PieTests.swift */; };
 		1800B4A929D07BF4008B37E1 /* Boone_Apple_PieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800B4A829D07BF4008B37E1 /* Boone_Apple_PieUITests.swift */; };
 		1800B4AB29D07BF4008B37E1 /* Boone_Apple_PieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800B4AA29D07BF4008B37E1 /* Boone_Apple_PieUITestsLaunchTests.swift */; };
+		1800B4B829D08509008B37E1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800B4B729D08509008B37E1 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1800B4A429D07BF4008B37E1 /* Boone Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boone Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1800B4A829D07BF4008B37E1 /* Boone_Apple_PieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boone_Apple_PieUITests.swift; sourceTree = "<group>"; };
 		1800B4AA29D07BF4008B37E1 /* Boone_Apple_PieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boone_Apple_PieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1800B4B729D08509008B37E1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1800B48729D07BF3008B37E1 /* AppDelegate.swift */,
 				1800B48929D07BF3008B37E1 /* SceneDelegate.swift */,
 				1800B48B29D07BF3008B37E1 /* ViewController.swift */,
+				1800B4B729D08509008B37E1 /* Game.swift */,
 				1800B48D29D07BF3008B37E1 /* Main.storyboard */,
 				1800B49029D07BF4008B37E1 /* Assets.xcassets */,
 				1800B49229D07BF4008B37E1 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				1800B48C29D07BF3008B37E1 /* ViewController.swift in Sources */,
 				1800B48829D07BF3008B37E1 /* AppDelegate.swift in Sources */,
 				1800B48A29D07BF3008B37E1 /* SceneDelegate.swift in Sources */,
+				1800B4B829D08509008B37E1 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,9 +456,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "DkairiBoone.Boone-Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -480,9 +487,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "DkairiBoone.Boone-Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
